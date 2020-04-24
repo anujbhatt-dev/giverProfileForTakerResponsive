@@ -303,4 +303,7 @@ text-align: center;
 .last{
   margin-right: 19%;
 }
+  nav{
+  margin-right:-15px;
+  }
 }
