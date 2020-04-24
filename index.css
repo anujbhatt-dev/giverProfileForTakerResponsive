@@ -183,7 +183,7 @@ body {
   padding: 6px;
 color: aliceblue;
 position: relative;
-left: 255px;
+left: 227px;
 width: 120px;
 border-radius: 5px;
 
@@ -234,6 +234,7 @@ text-align: center;
 @media screen and (max-width:1090px) {
   body{
     padding: 0;
+    padding-bottom: 5%;
   }
   .profilePic{
     height: 150px;
