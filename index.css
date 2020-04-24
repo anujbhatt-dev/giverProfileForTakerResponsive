@@ -202,7 +202,7 @@ border-radius: 5px;
 color: antiquewhite;
 }
 
-.image-sixw{
+.image-size{
   object-fit: cover;
   object-position:bottom;
   height: 200px;
@@ -306,4 +306,12 @@ text-align: center;
   nav{
   margin-right:-15px;
   }
+  .formIn {
+    width: 107%;
+    position: relative;
+    left: 17px;
+    letter-spacing: 3px;
+    font-family: inherit;
+    color: aliceblue;
+}
 }
