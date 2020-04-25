@@ -177,6 +177,7 @@ body {
   padding: 6px;
       border-radius: 5px;
       background-color: #ffffff5c;
+    -webkit-user-select: auto;
 }
 
 .formbutton{
