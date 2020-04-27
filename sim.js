@@ -9,3 +9,8 @@ $(".formbutton").click(function () {
 $(".formbutton").click(function () {
   $(".send-req").text("requested").css("background","green").effect('shake');
 });
+$(".fform").hide();
+$(".feedback").click(function () {
+  $(".fform").slideToggle();
+
+});
