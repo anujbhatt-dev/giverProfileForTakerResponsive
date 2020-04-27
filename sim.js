@@ -14,3 +14,6 @@ $(".feedback").click(function () {
   $(".fform").slideToggle();
 
 });
+$(".tc").click(function () {
+  $(".fform").slideToggle();
+});
