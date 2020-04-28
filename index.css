@@ -231,6 +231,10 @@ h2{
 margin-top: 12px;
 text-align: center;
 }
+.tx{
+  width: 100%;
+}
+
 
 
 @media screen and (max-width:1090px) {
@@ -338,4 +342,37 @@ text-align: center;
   margin: 1%;
   display: flex;
   justify-content: center;
+}
+.rating-wrapper input{
+  display:none;
+}
+.rating-wrapper{
+  direction: rtl;
+  position: absolute;
+}
+.rating-wrapper label{
+  display:inline-block;
+  width: 30px;
+  position: relative;
+  cursor:pointer;
+}
+.rating-wrapper label:before{
+  content: "\2605";
+  position: absolute;
+  font-size: 30px;
+  display: inline-block;
+  color: grey;
+}
+.rating-wrapper label:after{
+  content: "\2605";
+  position: absolute;
+  font-size: 30px;
+  display: inline-block;
+  color:yellow;
+  opacity: 0;
+}
+.rating-wrapper label:hover:after,
+.rating-wrapper label:hover ~ label:after,
+.rating-wrapper input:checked ~ label:after{
+  opacity: 1;
 }
