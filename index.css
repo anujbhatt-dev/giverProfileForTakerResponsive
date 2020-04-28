@@ -235,7 +235,40 @@ text-align: center;
   width: 100%;
 }
 
+a span::after{
+  content: "\2605 \2605 \2605 \2605";
+   color: yellow;
+}
 
+h4 span::after{
+  content: "\2605 \2605 \2605 \2605";
+   color: yellow;
+}
+.plumbing::after{
+  content: "\2605 \2605 \2605";
+   color: yellow;
+}
+.cleaning::after{
+  content: "\2605 \2605 \2605 \2605";
+   color: yellow;
+}
+.gym::after{
+  content: "\2605 \2605 \2605";
+   color: yellow;
+}
+.math::after{
+  content: "\2605 \2605 \2605";
+   color: yellow;
+}
+.p1::after{
+  content: "\2605 \2605 \2605 \2605";
+   color: yellow;
+}
+
+.p2::after{
+  content: "\2605 \2605 \2605";
+   color: yellow;
+}
 
 @media screen and (max-width:1090px) {
   body{
